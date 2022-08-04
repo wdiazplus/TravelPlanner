@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from .routers import users
-from .routers import travel_plan
+from .routers import travels
 app = FastAPI()
 
 app.include_router(users.router)
